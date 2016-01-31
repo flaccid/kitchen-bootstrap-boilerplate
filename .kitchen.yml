@@ -1,0 +1,12 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: centos-7.1
+
+suites:
+  - name: default
